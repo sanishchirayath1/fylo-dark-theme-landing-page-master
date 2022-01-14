@@ -1,7 +1,9 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
 
 const Home: NextPage = () => {
   return (
@@ -12,9 +14,10 @@ const Home: NextPage = () => {
 
         <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
       </Head>
-
+      <Navbar />
+      <Hero />
       <main className={styles.main}>
-        hh
+        
         {/* Features
         Team
         Sign In

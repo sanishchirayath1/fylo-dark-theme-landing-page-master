@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  nav {
+      font-family: "Raleway", sans-serif;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        list-style: none;
+        white-space: nowrap;
+        a {
+            color: hsl(0, 0%, 80%);
+          text-decoration: none;
+          font-size: 1.2rem;
+
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          transition: all 0.2s ease-in-out;
+          &:hover {
+            background-color: hsl(218, 28%, 13%);
+            color: hsl(0, 0%, 100%);
+          }
+        }
+      }
+    }
+  }
+}
